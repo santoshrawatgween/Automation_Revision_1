@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Forgotten Password | Can't Log In | Facebook]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/login/identify/?ctx=recover&ars=facebook_login&from_login_screen=0]]>
+    </line>
+    <line>
+      <![CDATA[Forgotten Password | Can't Log In | Facebook]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/login/identify/?ctx=recover&ars=facebook_login&from_login_screen=0]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-03-12T09:43:32 IST" name="Suite" finished-at="2023-03-12T09:43:39 IST" duration-ms="6223">
+    <groups>
+    </groups>
+    <test started-at="2023-03-12T09:43:32 IST" name="Test1" finished-at="2023-03-12T09:43:36 IST" duration-ms="3600">
+      <class name="testNG.Parallel">
+        <test-method signature="demo(java.lang.String)[pri:0, instance:testNG.Parallel@482bce4f]" started-at="2023-03-12T09:43:32 IST" name="demo" finished-at="2023-03-12T09:43:36 IST" duration-ms="3562" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Forgotten Password | Can't Log In | Facebook]]>
+            </line>
+            <line>
+              <![CDATA[https://www.facebook.com/login/identify/?ctx=recover&ars=facebook_login&from_login_screen=0]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- demo -->
+      </class> <!-- testNG.Parallel -->
+    </test> <!-- Test1 -->
+    <test started-at="2023-03-12T09:43:32 IST" name="Test2" finished-at="2023-03-12T09:43:39 IST" duration-ms="6223">
+      <class name="testNG.Parallel">
+        <test-method signature="demo(java.lang.String)[pri:0, instance:testNG.Parallel@2df9b86]" started-at="2023-03-12T09:43:32 IST" name="demo" finished-at="2023-03-12T09:43:39 IST" duration-ms="6188" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Forgotten Password | Can't Log In | Facebook]]>
+            </line>
+            <line>
+              <![CDATA[https://www.facebook.com/login/identify/?ctx=recover&ars=facebook_login&from_login_screen=0]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- demo -->
+      </class> <!-- testNG.Parallel -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
+</testng-results>
